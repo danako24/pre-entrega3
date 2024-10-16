@@ -8,15 +8,15 @@ body {
 
 #tablero-juego {
     display: grid;
-    grid-template-columns: repeat(4, 130px);
-    grid-gap: 15px;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .carta {
-    width: 120px; 
-    height: 165px;
+    width: 95px; 
+    height: 135px;
     background-color: #f6cdff;
     display: flex;
     justify-content: center;
@@ -63,5 +63,16 @@ button {
     border-radius: 10px;
     font-weight: 700;
 }
+
+#cronometro{
+    font-size: 22px;
+    color: #c56bdb;
+    font-weight: 700;
+}
+
+audio{
+    color: #433878;
+}
+
 
 
